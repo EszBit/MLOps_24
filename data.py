@@ -5,7 +5,7 @@
 # using torch.save, so to load it you should use torch.load.
 
 import torch
-import numpy
+import numpy as np
 from torch import nn
 
 def mnist():
