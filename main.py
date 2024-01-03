@@ -16,6 +16,8 @@ from data import mnist
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
+# this is a test for the branches
+
 @click.group()
 def cli():
     """Command line interface."""
